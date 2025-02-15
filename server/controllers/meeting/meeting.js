@@ -1,7 +1,4 @@
 const MeetingHistory = require('../../model/schema/meeting');
-require('../../model/schema/contact');
-require('../../model/schema/lead');
-require('../../model/schema/user');
 const mongoose = require('mongoose');
 
 const add = async (req, res) => {
