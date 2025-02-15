@@ -99,7 +99,7 @@ const Index = () => {
             setIsLoding(true)
             let response;
             if (ids.length > 1) {
-                response = await deleteManyApi('api/meeting/', { ids });
+                response = await deleteManyApi('api/meeting/deleteMany', { ids });
             } else {
                 response = await deleteApi('api/meeting/', ids[0]);
             }
